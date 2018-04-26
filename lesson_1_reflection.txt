@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Only the lines which are changed in the two versions are displayed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    after every change we can compare with the old files for the changes
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros-every commit operation can be rollbacked
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+   In git multiple files are saved because a single project contain many files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows all the commit history with unique ID whereas with git diff command
+    we can comparevto commits by their unique ID.
+
+How might using version control make you more confident to make changes that could break something?
+
+    we can revert back to previous version if needed using the git checkout command.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to develop some android apps with the help of version-control.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+   we can track all the changes made to the file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+   if we chose manual commit then each commit can be logical and meaningful.
+   where as automatic commits are not logically connected.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+   many projects consists of multiple files so during commit all the files are saved so as to track 
+   the changes in all the files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+   As a reminder, running git log will show a list of the recent commits with information about them, including commit IDs. Running git diff followed by two commit IDs will compare the two versions of the code in those commits.   
